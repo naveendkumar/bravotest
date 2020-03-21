@@ -1,0 +1,18 @@
+﻿body {
+    padding-top: 3.5rem;
+}
+
+.logo {
+    margin-bottom: 24px;
+    margin-top: 25px;
+    width: auto;
+    height: 100px;
+}
+
+.jumbotron {
+    padding: 2rem 2rem;
+}
+
+.card-deck {
+    margin-bottom: 35px;
+}

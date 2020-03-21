@@ -1,0 +1,144 @@
+﻿@{
+    Layout = "_Layout";
+    ViewBag.Title = "C# Technical Test";
+}
+<main role="main">
+    <div class="jumbotron">
+        <div class="container">
+            <img src="/assets/img/logo.png" alt="Logo" class="logo" />
+            <p>Welcome to the @ViewBag.Title.</p>
+            <p>This test consists of a number of tasks outlined below that can be completed in any order. You do not have to complete all tasks.</p>
+            <p>Once complete, please .zip your submission with any notes or relevant comments and send it back.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Dependency Injection</h5>
+                    <p class="card-text">Apply the Inversion of Control principal using Dependency Injection.</p>
+                    <h6>Tasks:</h6>
+                    <ul>
+                        <li>
+                            Create a class to perform any given action i.e Generate a random number. - <b> Done </b>
+                        </li>
+                        <li>
+                            Register the class using a Dependency Injection container. - <b> Done </b>
+                        </li>
+                        <li>
+                            Inject the class into a controller using a Dependency Injection container. - <b> Done </b>
+                        </li>
+                    </ul>
+                    <h6>Bonus:</h6>
+                    <ul>
+                        <li>
+                            Register the class with an interface using a Dependency Injection container. - <b> Done </b>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Easy (10-20 Minutes)</small>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Web API Endpoints</h5>
+                    <p class="card-text">Create one or more Web API endpoints to expose data in a consistent format.</p>
+                    <h6>Tasks:</h6>
+                    <ul>
+                        <li>
+                            Expose an endpoint that returns JSON from the events.json file provided with this solution. - <b> Done </b>
+                        </li>
+                        <li>
+                            Ensure the returned data has consistent casing without altering the original file. - <b> Done </b>
+                        </li>
+                        <li>
+                            Create a link in the top navigation to the exposed endpoint.
+                        </li>
+                    </ul>
+                    <h6>Bonus:</h6>
+                    <ul>
+                        <li>
+                            Expose an optional parameter that allows the caller to request the data be returned in a either a random or sequential order.
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Medium (20-40 Minutes)</small>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">File Streams</h5>
+                    <p class="card-text">Create one or more controller methods that stream files back to the caller.</p>
+                    <h6>Tasks:</h6>
+                    <ul>
+                        <li>
+                            Create a controller that can stream files from the file system. - - <b> Done </b>
+                        </li>
+                        <li>
+                            Replace at least two assets requests in this page (/assets/css etc.) with the new controller endpoint.  - <b> Need Clarification  </b>
+                        </li>
+                    </ul>
+                    <h6>Bonus:</h6>
+                    <ul>
+                        <li>
+                            Apply a restriction to only serve files within a given folder. - <b> Done </b>
+                        </li>
+                        <li>
+                            Apply a restriction to only serve the first 100KB of any given text file. - <b> Done </b>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Medium (20-40 Minutes)</small>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">MVC Layouts</h5>
+                    <p class="card-text">Convert an existing HTML document to a re-usable MVC layout.</p>
+                    <h6>Tasks:</h6>
+                    <ul>
+                        <li>
+                            Extract any global elements i.e Header from this page into a re-usable MVC layout.  - <b> Done - Layout page</b>
+                        </li>
+                        <li>
+                            Update the page title in such a way that it can be set at each page. - <b> Done. ViewBag </b>
+                        </li>
+                        <li>
+                            Extract the difficulty sections on the current page into their own MVC partials. - <b> Done . Menu_chtml </b>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Easy (10-20 Minutes)</small>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Bundling and Minification</h5>
+                    <p class="card-text">Apply bundling and minification to an existing set of assets.</p>
+                    <h6>Tasks:</h6>
+                    <ul>
+                        <li>
+                            Minify the stylesheet.css file included with this solution. - <b> Done </b>
+                        </li>
+                        <li>
+                            Bundle the minified stylesheet.css file with the other assets included with the solution. - <b> Done </b>
+                        </li>
+                    </ul>
+                    <h6>Bonus:</h6>
+                    <ul>
+                        <li>
+                            Apply a cache busting querystring to the asset bundle.
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Medium (20-40 Minutes)</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
