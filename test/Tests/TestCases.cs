@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Tests
 {
-    class Test1
+    class TestCases
     {
     }
 }
