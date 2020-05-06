@@ -14,5 +14,6 @@ namespace WEBAPIDemo.Models
         public string imgUrlDesktop;
         public string imgUrlDesktop2x;
         public string imgUrlDesktop4x;
+        public string imgUrlDesktop3x;
     }
 }
